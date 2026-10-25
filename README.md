@@ -38,6 +38,7 @@ A HIP is a short design document that describes one change, explains why, and re
 | [1](hips/hip-0001.md) | HIP Purpose and Process | Meta | Final |
 | [2](hips/hip-0002.md) | Scoped view keys | Core | Draft |
 | [3](hips/hip-0003.md) | Monero swap timelock parameters | Connection | Draft |
+| [4](hips/hip-0004.md) | Shielded fee payment | Core | Draft |
 
 ## How to submit
 
@@ -53,6 +54,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the style guide.
 
 - [protocol-spec](https://github.com/HashChainL0/protocol-spec): the written design of Hash Chain.
 - [xmr-swap-model](https://github.com/HashChainL0/xmr-swap-model): a research model of the Monero swap, used by HIP-3.
+- [protocol-spec research notes](https://github.com/HashChainL0/protocol-spec/tree/main/research): background for several HIPs, such as HIP-4.
 
 ## Security
 
