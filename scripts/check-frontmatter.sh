@@ -63,6 +63,22 @@ for f in hips/*.md; do
     echo "$f: hip field '$num' does not match file name"
     fail=1
   fi
+
+  requires=$(printf '%s\n' "$fm" | sed -n 's/^requires:[[:space:]]*//p' | head -n1)
+  if [ -n "$requires" ]; then
+    for dep in $(printf '%s' "$requires" | tr ',' ' '); do
+      if ! printf '%s' "$dep" | grep -qE '^[0-9]+$'; then
+        echo "$f: requires must be a comma separated list of HIP numbers, got '$dep'"
+        fail=1
+      elif [ "$dep" = "$num" ]; then
+        echo "$f: a HIP cannot require itself"
+        fail=1
+      elif [ ! -e "$(printf 'hips/hip-%04d.md' "$((10#$dep))")" ]; then
+        echo "$f: requires HIP $dep, which does not exist"
+        fail=1
+      fi
+    done
+  fi
 done
 
 if [ "$fail" -ne 0 ]; then

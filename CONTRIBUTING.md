@@ -15,7 +15,7 @@ Thanks for reading the proposals closely. Hash Chain is at the spec stage, so ca
 1. Fork the repository and create a branch.
 2. One HIP per pull request.
 3. Name the file `hips/hip-NNNN.md`. Editors assign the number, so use a placeholder such as `hip-9999.md` until then.
-4. Run `scripts/check-frontmatter.sh` before opening the pull request.
+4. Run `scripts/check-frontmatter.sh` before opening the pull request. It checks the required fields, the status, category and date values, that the number matches the file name, and that every HIP listed in `requires` exists.
 5. A maintainer reviews. Substantive changes may need discussion in the pull request before merging.
 
 ## Style guide
