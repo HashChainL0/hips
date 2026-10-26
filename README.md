@@ -39,6 +39,7 @@ A HIP is a short design document that describes one change, explains why, and re
 | [2](hips/hip-0002.md) | Scoped view keys | Core | Draft |
 | [3](hips/hip-0003.md) | Monero swap timelock parameters | Connection | Draft |
 | [4](hips/hip-0004.md) | Shielded fee payment | Core | Draft |
+| [5](hips/hip-0005.md) | Direct swap corridors for ETH and Monero | Connection | Draft |
 
 ## How to submit
 
