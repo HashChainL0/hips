@@ -16,7 +16,8 @@ Thanks for reading the proposals closely. Hash Chain is at the spec stage, so ca
 2. One HIP per pull request.
 3. Name the file `hips/hip-NNNN.md`. Editors assign the number, so use a placeholder such as `hip-9999.md` until then.
 4. Run `scripts/check-frontmatter.sh` before opening the pull request. It checks the required fields, the status, category and date values, that the number matches the file name, and that every HIP listed in `requires` exists.
-5. A maintainer reviews. Substantive changes may need discussion in the pull request before merging.
+5. Run `scripts/check-index.sh`. It checks that the README index lists every HIP once, with the title, category and status from its front matter. Add a row for your HIP to the index in the pull request. Editors correct the number when they assign it, and update the row when a status changes.
+6. A maintainer reviews. Substantive changes may need discussion in the pull request before merging.
 
 ## Style guide
 

@@ -44,7 +44,7 @@ A HIP is a short design document that describes one change, explains why, and re
 
 1. Open an issue with the "HIP idea" template and discuss the idea in public.
 2. Copy [hip-template.md](hip-template.md) and fill it in. Keep to plain language and mark undecided points as "to be specified".
-3. Run `scripts/check-frontmatter.sh`.
+3. Run `scripts/check-frontmatter.sh` and `scripts/check-index.sh`.
 4. Open a pull request with one HIP. An editor assigns the number.
 5. Respond to feedback in the open. The HIP moves through Review and Last Call to Final.
 

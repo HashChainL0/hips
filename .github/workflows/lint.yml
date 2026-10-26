@@ -15,6 +15,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check HIP front matter
         run: bash scripts/check-frontmatter.sh
+      - name: Check the README index
+        run: bash scripts/check-index.sh
       - name: Check for em dashes
         run: |
           if grep -rn $'\xe2\x80\x94' --include='*.md' --include='*.yml' --include='*.sh' . --exclude-dir=.git; then
