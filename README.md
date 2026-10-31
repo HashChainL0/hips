@@ -8,6 +8,20 @@ Design proposals for Hash Chain, the privacy Layer 0: its own network with its o
 
 A HIP is a short design document that describes one change, explains why, and records the objections. It is modelled on Ethereum Improvement Proposals and Bitcoin Improvement Proposals. Anyone can write one. The full rules are in [HIP-1](hips/hip-0001.md).
 
+## Front matter
+
+Every HIP starts with this front matter. `scripts/check-frontmatter.sh` enforces it.
+
+| Field | Required | Value |
+| --- | --- | --- |
+| `hip` | Yes | The HIP number. Must match the file name, so `hip: 2` lives in `hips/hip-0002.md`. |
+| `title` | Yes | A short plain title. |
+| `author` | Yes | Who wrote it. |
+| `status` | Yes | One of the statuses below. |
+| `category` | Yes | One of the categories below. |
+| `created` | Yes | Date in `YYYY-MM-DD` format. |
+| `requires` | No | Comma separated HIP numbers this one depends on, for example `1, 2`. Each must exist. |
+
 ## Status lifecycle
 
 | Status | Meaning |
