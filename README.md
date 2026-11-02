@@ -54,6 +54,7 @@ Every HIP starts with this front matter. `scripts/check-frontmatter.sh` enforces
 | [3](hips/hip-0003.md) | Monero swap timelock parameters | Connection | Draft |
 | [4](hips/hip-0004.md) | Shielded fee payment | Core | Draft |
 | [5](hips/hip-0005.md) | Direct swap corridors for ETH and Monero | Connection | Draft |
+| [6](hips/hip-0006.md) | Optional association sets for shielded withdrawals | Core | Draft |
 
 ## How to submit
 
