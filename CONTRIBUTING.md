@@ -21,6 +21,16 @@ Thanks for reading the proposals closely. Hash Chain is at the spec stage, so ca
 7. Run `scripts/check-links.sh`. It checks that every relative link in the Markdown files points at a file that exists.
 8. A maintainer reviews. Substantive changes may need discussion in the pull request before merging.
 
+### Before you ask for review
+
+- [ ] The Abstract can be understood without reading the rest.
+- [ ] The Motivation names the problem, not only the solution.
+- [ ] Every value that is not decided is written as a symbol or "to be specified".
+- [ ] Normative statements use MUST, SHOULD and MAY.
+- [ ] Security considerations say what the change reveals, to whom, and what happens if a party misbehaves.
+- [ ] Open questions list what the HIP does not settle.
+- [ ] Links to the spec and to other HIPs work.
+
 ## Style guide
 
 - **Plain first, technical second.** Short sentences. Explain terms on first use.
