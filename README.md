@@ -70,6 +70,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the style guide.
 
 - [protocol-spec](https://github.com/HashChainL0/protocol-spec): the written design of Hash Chain.
 - [xmr-swap-model](https://github.com/HashChainL0/xmr-swap-model): a research model of the Monero swap, used by HIP-3.
+- [shielded-pool-model](https://github.com/HashChainL0/shielded-pool-model): a research model of the shielded pool, used by HIP-6.
 - [protocol-spec research notes](https://github.com/HashChainL0/protocol-spec/tree/main/research): background for several HIPs, such as HIP-4.
 
 ## Security
