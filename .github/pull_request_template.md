@@ -13,5 +13,5 @@ A new HIP, an edit to an existing HIP, or a repository change.
 - [ ] `scripts/check-links.sh` passes and relative links resolve.
 - [ ] Status is honest: nothing is described as audited or deployed unless it is.
 - [ ] No invented numbers. Examples are labelled as examples.
-- [ ] No em dashes.
+- [ ] No em dashes and `scripts/check-dashes.sh` passes.
 - [ ] Open questions are listed, not hidden.

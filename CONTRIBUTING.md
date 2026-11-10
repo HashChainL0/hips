@@ -19,7 +19,8 @@ Thanks for reading the proposals closely. Hash Chain is at the spec stage, so ca
 5. Run `scripts/check-sections.sh`. It checks that the HIP has the required sections in the order set by [HIP-1](hips/hip-0001.md), with an optional Copyright section at the end.
 6. Run `scripts/check-index.sh`. It checks that the README index lists every HIP once, with the title, category and status from its front matter. Add a row for your HIP to the index in the pull request. Editors correct the number when they assign it, and update the row when a status changes.
 7. Run `scripts/check-links.sh`. It checks that every relative link in the Markdown files points at a file that exists.
-8. A maintainer reviews. Substantive changes may need discussion in the pull request before merging.
+8. Run `scripts/check-dashes.sh`. It checks that no Markdown, YAML or shell file contains an em dash.
+9. A maintainer reviews. Substantive changes may need discussion in the pull request before merging.
 
 ### Before you ask for review
 
